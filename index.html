@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Finn SMP Discord Bot Docs</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script src="https://kit.fontawesome.com/799390624f.js" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+
+                
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title">Finn SMP Discord Bot Documentation</h1>
+                    <div class="meta">By the Finn SMP Staff</div>
+                    <a href="http://discord.finnsmp.ml" class="btn btn-orange" target="_blank">Discord</a>  <a href="http://finnsmp.ml" class="btn btn-orange" target="_blank">Main Site</a>
+
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="download-section" class="doc-section">
+                                <h2 class="section-title">Agreement</h2>
+                                <div class="section-block">
+                                    <p>By using the discord server and or bot, you agree to the usage of your publicly avaliable discord account data for issues, abuse, punishment, and blacklists.
+                                    </p>
+                                    <p>Upon joining, you must type <code>!agree</code> to gain access to the server. If, at any time you disagree to the rules, you may leave the server.
+                                    </p>
+                                    <a href="http://discord.finnsmp.ml" class="btn btn-blue" target="_blank">Join us on Discord</a>
+                                </div>
+                            </section><!--//doc-section-->
+                            <section id="installation-section" class="doc-section">
+                                
+                                <h2 class="section-title">Commands</h2>
+                                <div id="help"  class="section-block">
+                                    <h3 class="block-title">!help</h3>
+                                    <p>Display a list of commands and required permissions.</p>
+                                    <div class="code-block">
+                                        <h6>Usage:</h6>
+                                        <p><code>!help</code></p>
+                                    </div>
+                                </div>
+                                <div id="uptime"  class="section-block">
+                                    <h3 class="block-title">!uptime</h3>
+                                    <p>View the bot's current uptime.</p>
+                                    <div class="code-block">
+                                        <h6>Usage:</h6>
+                                        <p><code>!uptime</code></p>
+                                    </div>
+                                </div>
+                                <div id="dev"  class="section-block">
+                                    <h3 class="block-title">!dev</h3>
+                                    <p>View the bot's contributors</p>
+                                    <div class="code-block">
+                                        <h6>Usage:</h6>
+                                        <p><code>!dev</code></p>
+                                    </div>
+                                <div id="suggest"  class="section-block">
+                                    <h3 class="block-title">!suggest</h3>
+                                    <p>Make a suggestion</p>
+                                    <div class="code-block">
+                                        <h6>Usage:</h6>
+                                        <p><code>!suggest [Your Suggestion]</code></p>
+                                    </div>
+                                    <h4>Sub-commands for !suggest</h4>
+                                    <div class="code-block">
+                                        <div class="callout-block callout-info">
+                                            <div class="icon-holder">
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                            </div><!--//icon-holder-->
+                                            <div class="content">
+                                                <h4 class="callout-title">Permission</h4>
+                                                <p>These commands require the ADMINISTRATOR permission or higher.</p>
+                                            </div><!--//content-->
+                                        </div>
+                                        <h6>!deny:</h6>
+                                        <p><code>!deny [Suggestion ID] [Reason]</code></p>
+                                        <h6>!accept:</h6>
+                                        <p><code>!accept [Suggestion ID] [Reason]</code></p>
+                                        <h6>!consider:</h6>
+                                        <p><code>!consider [Suggestion ID] [Reason]</code></p>
+                                        <h6>!delete:</h6>
+                                        <p><code>!delete [Suggestion ID]</code></p>
+                                    </div></div>
+                                    <div id="slow"  class="section-block">
+                                        <h3 class="block-title">!slow</h3>
+                                        <div class="callout-block callout-info">
+                                            <div class="icon-holder">
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                            </div><!--//icon-holder-->
+                                            <div class="content">
+                                                <h4 class="callout-title">Permission</h4>
+                                                <p>This command requires the MANAGE_CHANNEL permission or higher.</p>
+                                            </div><!--//content-->
+                                        </div>
+                                        <p>Set current channel's slowmode in seconds.</p>
+                                        <div class="code-block">
+                                            <h6>Usage:</h6>
+                                            <p><code>!slow [Number]</code></p>
+                                        </div>
+                                    <div id="kick"  class="section-block">
+                                    <h3 class="block-title">!kick</h3>
+                                    <div class="callout-block callout-info">
+                                        <div class="icon-holder">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                        </div><!--//icon-holder-->
+                                        <div class="content">
+                                            <h4 class="callout-title">Permission</h4>
+                                            <p>This command requires the KICK_MEMBERS permission or higher.</p>
+                                        </div><!--//content-->
+                                    </div>
+                                    <p>Kick a member from the server</p>
+                                    <div class="code-block">
+                                        <h6>Usage:</h6>
+                                        <p><code>!kick @Member [Reason]</code></p>
+                                    </div>
+                                    <div id="ban"  class="section-block">
+                                        <h3 class="block-title">!ban</h3>
+                                        <div class="callout-block callout-info">
+                                            <div class="icon-holder">
+                                                <i class="fas fa-exclamation-triangle"></i>
+                                            </div><!--//icon-holder-->
+                                            <div class="content">
+                                                <h4 class="callout-title">Permission</h4>
+                                                <p>This command requires the BAN_MEMBERS permission or higher.</p>
+                                                
+                                            </div><!--//content-->
+                                        </div>
+                                        <p>Ban a member from the server</p>
+                                        <div class="code-block">
+                                            <h6>Usage:</h6>
+                                            <p><code>!ban @Member [Reason]</code></p>
+                                        </div>
+                                </div>
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+                                
+                                
+                            </div><!--//content-holder-inner-->
+                        </div><!--//content-holder-->
+                    </div><!--//row-->
+                </div><!--//promo-block-inner-->  
+            </div><!--//container-->
+        
+    </div><!--//page-wrapper-->
+    
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!-- This template is free under mit because i did yes totly desin it -->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://neumatic.ml/" target="_blank">Neumatic</a> for the <a href="http://finnsmp.ml/" target="_blank">Finn SMP</a></small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="assets/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+    <script type="text/javascript" src="assets/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="assets/main.js"></script>
+    
+</body>
+</html> 
+
